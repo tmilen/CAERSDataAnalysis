@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import io
+import os
 
 st.title("Exploratory Data Analysis : Adverse Food")
 st.header("Dataset Background")
@@ -25,7 +26,7 @@ st.code(code, language="python")
 #get the dataset
 st.header("Get the Dataset")
 st.write("To get the dataset, I import and load **Adverse Food** dataset from my local device and create a Pandas dataframe.")
-path= "C:/Users/tmilen/Downloads/Elysian Edu/AdverseFoodProject/Dataset/CAERS_ASCII_2004_2017Q2.csv"
+path = os.path.join("data", "CAERS_ASCII_2004_2017Q2.csv")
 adFoodDF=pd.read_csv(path)
 
 #Data Pre-processing
