@@ -23,3 +23,6 @@ This repository contains an exploratory data analysis (EDA) of the Adverse Food 
 10. **Are there seasonal trends in the occurrence of adverse food events?**
 
 ---
+## Live Demo
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live-brightgreen)](https://caersdataanalysis-7n5aoec4hcbjqepknn4vbf.streamlit.app/)
