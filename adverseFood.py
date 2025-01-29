@@ -26,7 +26,7 @@ st.code(code, language="python")
 #get the dataset
 st.header("Get the Dataset")
 st.write("To get the dataset, I import and load **Adverse Food** dataset from my local device and create a Pandas dataframe.")
-path = os.path.join("data", "CAERS_ASCII_2004_2017Q2.csv")
+path = os.path.join("Dataset", "CAERS_ASCII_2004_2017Q2.csv")
 adFoodDF=pd.read_csv(path)
 
 #Data Pre-processing
